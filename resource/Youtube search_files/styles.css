@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(35, 38, 49, 0.884);
+    padding: 10px;
+}
+
+.search {
+    width: 1000px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 auto;
+    background: white;
+}
+
+.search>.icon {
+    background: url(../resource/search.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: 2px;
+    margin-top: 7px;
+}
+
+.search>.input {
+    width: 955px;
+    height: 30px;
+    border: none;
+    margin: 3px;
+    margin-top: 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+.blockFirst {
+    width: 250px;
+    height: 380px;
+    background: white;
+    border-radius: 3px;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-top: 3px;
+}
+
+#image {
+    background: palevioletred;
+    margin: 0 auto;
+    width: 240px;
+    height: 150px;
+}
+
+.icoMan,
+.icoEye,
+.icoCalendar {
+    opacity: 0.7;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+
+.icoMan {
+    margin-top: 20px;
+}
+
+#count,
+#day,
+#author {
+    width: 120px;
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+#author {
+    margin-top: 25px;
+}
+
+.blockFirst>#text {
+    margin-left: 10px;
+    font-size: 14px;
+    font-style: italic;
+    opacity: 0.8;
+    size: cover;
+}
+
+.titleFirst {
+    text-align: center;
+    background: rgba(6, 104, 56, 0.8);
+    width: 250px;
+    position: absolute;
+    margin-top: 50px;
+}
+
+#textTitleFirst {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 17px;
+    margin: 5px 3px;
+}
+
+.mans,
+.eyes,
+.calendar {
+    display: block;
+    width: 250px;
+    display: flex;
+}
+
+.blocks {
+    display: flex;
+    visibility: hidden;
+}
+
+.buttons {
+    background: rgb(240, 134, 134);
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    border: 2px solid white;
+    margin: 5px;
+    font-size: 10px;
+}
